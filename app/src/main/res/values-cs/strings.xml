@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FotoEditor</string>
+    <string name="cannot_be_empty">Povinné pole</string>
+    <string name="clear">Vymazat</string>
+    <string name="cancel">Zrušit</string>
+    <string name="select">Vybrat</string>
+    <string name="date">Datum</string>
+    <string name="save">Uložit</string>
+    <string name="add_photo">Přidat fotku</string>
+    <string name="Settings">Nastavení</string>
+    <string name="gallery">Galerie</string>
+    <string name="home">Domů</string>
+    <string name="make_photo">Pořídit fotku</string>
+    <string name="choose_from_gallery">Vybrat z galerie</string>
+    <string name="Editor">Editor</string>
+    <string name="Preview">Náhled</string>
+    <string name="Crop">Oříznout</string>
+    <string name="Gallery">Galerie</string>
+    <string name="not_found">Nenalezeno</string>
+    <string name="description">Popis</string>
+    <string name="iso">ISO</string>
+    <string name="name">Název</string>
+    <string name="Information">Informace</string>
+    <string name="Storage">Úložiště</string>
+    <string name="Apply">Použít</string>
+    <string name="Filter">Filtr</string>
+    <string name="Edit">Editace</string>
+    <string name="brightness">Jas</string>
+    <string name="saturation">Sytost</string>
+    <string name="contrast">Kontrast</string>
+    <string name="shadow">Stín</string>
+    <string name="accept">Přijmout</string>
+    <string name="Recent_projects">Poslední projekty:</string>
+    <string name="version">Verze</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

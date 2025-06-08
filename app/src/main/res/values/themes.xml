@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PhotoEditor" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.PhotoEditor.Splash" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/icons</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.PhotoEditor</item>
+
+    </style>
+
+
+</resources>

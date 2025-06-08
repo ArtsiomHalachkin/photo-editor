@@ -1,0 +1,88 @@
+[versions]
+agp = "8.8.1"
+bom = "VERSION"
+firebaseBom = "33.13.0"
+kotlin = "2.0.21"
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+ktorClientOkhttp = "2.3.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.10.1"
+composeBom = "2024.04.01"
+
+navigation = "2.8.8"
+room = "2.6.1"
+ksp = "2.0.21-1.0.27"
+hilt = "2.51.1"
+hilt-compose = "1.2.0"
+roomRuntimeAndroid = "2.7.1"
+datastore = "1.1.2"
+splashscreen = "1.0.1"
+
+postgrestKt = "1.2.1"
+storageKt = "1.2.1"
+
+kotlin-serialization = "2.0.21"
+kotlin-serialization-json = "1.7.3"
+moshi = "1.15.0"
+core = "1.49.0"
+media3Effect = "1.7.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+bom = { module = "io.github.jan-tennert.supabase:bom", version.ref = "bom" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+room-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "room" }
+room-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler-ksp = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-runtime = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android" , version.ref = "hilt"}
+hilt-compiler-ksp = { group = "com.google.dagger", name = "hilt-compiler" , version.ref = "hilt"}
+hilt-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-compose" }
+androidx-room-runtime-android = { group = "androidx.room", name = "room-runtime-android", version.ref = "roomRuntimeAndroid" }
+datastore-core = { group = "androidx.datastore", name = "datastore-core", version.ref = "datastore" }
+datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashscreen" }
+
+postgrest-kt = { module = "io.github.jan-tennert.supabase:postgrest-kt", version.ref = "postgrestKt" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktorClientOkhttp" }
+storage-kt = { module = "io.github.jan-tennert.supabase:storage-kt", version.ref = "storageKt" }
+
+moshi = { group = "com.squareup.moshi", name = "moshi", version.ref = "moshi" }
+moshi-ksp = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi" }
+core = { group = "com.google.ar", name = "core", version.ref = "core" }
+androidx-media3-effect = { group = "androidx.media3", name = "media3-effect", version.ref = "media3Effect" }
+
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref ="hilt" }
+
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref ="kotlin-serialization" }
+
+
+

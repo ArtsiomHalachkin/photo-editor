@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">PhotoEditor</string>
+    <string name="cannot_be_empty">Cannot be empty</string>
+    <string name="clear">Clear</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="date">Date</string>
+    <string name="save">Save</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="Settings">Settings</string>
+    <string name="gallery">Gallery</string>
+    <string name="home">Home</string>
+    <string name="make_photo">Make photo</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="Editor">Editor</string>
+    <string name="Preview">Preview</string>
+    <string name="Crop">Crop</string>
+    <string name="Gallery">Gallery</string>
+    <string name="not_found">Not found</string>
+    <string name="description">Description</string>
+    <string name="iso">ISO</string>
+    <string name="name">Name</string>
+    <string name="Information">Information</string>
+    <string name="Storage">Storage</string>
+    <string name="Apply">Apply</string>
+    <string name="Filter">Filter</string>
+    <string name="Edit">Edit</string>
+    <string name="brightness">Brightness</string>
+    <string name="saturation">Saturation</string>
+    <string name="contrast">Contrast</string>
+    <string name="shadow">Shadow</string>
+    <string name="accept">Accept</string>
+    <string name="Recent_projects">Recent projects:</string>
+    <string name="version">version</string>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

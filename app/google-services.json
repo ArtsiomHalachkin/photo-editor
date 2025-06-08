@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "49645963649",
+    "project_id": "photoeditor-dae70",
+    "storage_bucket": "photoeditor-dae70.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49645963649:android:2be4f796bd734405754080",
+        "android_client_info": {
+          "package_name": "cz.mendelu.photoeditor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEsiWRSitpDY69ir_3A8S9PbnjHRGFGHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
