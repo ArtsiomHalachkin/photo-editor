@@ -9,5 +9,5 @@ gradlew
 gradle.properties
 settings.gradle
 .DS_Store
-
+settings.gradle.kts
 .kotlin/errors
