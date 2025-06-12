@@ -65,8 +65,6 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.core)
     implementation(libs.androidx.media3.effect)
-    implementation(project(":opencv"))
-    implementation(project(":opencv"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -108,7 +106,7 @@ dependencies {
     implementation("androidx.exifinterface:exifinterface:1.4.1")
 
     //opencv
-    implementation(project(":opencv"))
+    implementation("org.opencv:opencv:4.11.0")
 
     //Cropping
     implementation("com.github.yalantis:ucrop:2.2.10")
